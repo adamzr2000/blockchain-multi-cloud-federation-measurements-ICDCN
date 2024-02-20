@@ -1,0 +1,9 @@
+step,timestamp
+serviceAnnouncementSent,6.699562072753906e-05
+bidOfferReceived,29.106473207473755
+choosingProvider,29.1064932346344
+providerChoosen,29.111876964569092
+winnerChoosenSent,29.111876964569092
+confirmDeploymentReceived,89.11067843437195
+checkConnectivityFederatedServiceStart,89.11067938804626
+checkConnectivityFederatedServiceFinished,89.12047052383423
