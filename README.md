@@ -3,7 +3,7 @@ multi-cloud service federation`, presented at ICDCN '24.
 
 ## Authors
 
-- Adam Zahir, Milan Groshev, Kiril Antevski, Carlos J. Bernardos, Constantine Ayimba, and Antonio de la Oliva from Universidad Carlos III de Madrid.
+- Adam Zahir, Milan Groshev, Kiril Antevski, Carlos J. Bernardos, Constantine Ayimba, and Antonio de la Oliva from Universidad Carlos III de Madrid (UC3M).
 
 ## Getting started
 
@@ -16,7 +16,7 @@ multi-cloud service federation`, presented at ICDCN '24.
 
 1. **Merge and format data**: Use `merge_and_format_csv.py` to combine and format federation events data from both consumer and provider perspectives into a singular CSV file.
    
-2. **Calculate mean values**: Execute `calculate_mean.py` to compute and compile mean start and end times across various test scenarios into singular CSV files.
+2. **Calculate mean values**: Execute `calculate_mean.py` to compute and compile mean start and end times across various test scenarios into singular CSV files. These files are located inside the mean directory.
    
 3. **Plot results**: Execute `plot_figure_private_blockchain.py` and `plot_figure_private_vs_public_blockchain.py` to generate the figures presented in our study.
 
