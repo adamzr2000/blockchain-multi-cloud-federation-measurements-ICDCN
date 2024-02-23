@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 
 # Define the file paths for the CSV files
 file_paths = [
-    'mean/mean_private_network_1s.csv',
-    'mean/mean_private_network_20s.csv',
-    'mean/mean_public_network.csv'
+    '../data/mean/mean_private_network_1s.csv',
+    '../data/mean/mean_private_network_20s.csv',
+    '../data/mean/mean_public_network.csv'
 ]
 
 # Define the steps and their corresponding names

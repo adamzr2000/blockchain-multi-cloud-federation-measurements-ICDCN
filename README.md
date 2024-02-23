@@ -12,14 +12,43 @@ multi-cloud service federation`, presented at ICDCN '24.
 - Python 3.8 or later
 - Pandas and Matplotlib libraries
 
+### Files Structure
+
+- **data**: Contains data obtained from the experiments.
+
+- **scripts**: Contains the scripts used to generate the plots.
+
+- **presentation**: Contains the PowerPoint presentation used in the ICDCN conference.
+
 ### Running the analysis
 
+Go to `scripts` directory:
+
+```bash
+cd scripts
+```
+
 1. **Merge and format data**: Use `merge_and_format_csv.py` to combine and format federation events data from both consumer and provider perspectives into a singular CSV file.
-   
+
+```bash
+python3 merge_and_format_csv.py
+```
+
 2. **Calculate mean values**: Execute `calculate_mean.py` to compute and compile mean start and end times across various test scenarios into singular CSV files. These files are located inside the mean directory.
+
+```bash
+python3 calculate_mean.py
+```
    
 3. **Plot results**: Execute `plot_figure_private_blockchain.py` and `plot_figure_private_vs_public_blockchain.py` to generate the figures presented in our study.
 
+```bash
+python3 plot_figure_private_blockchain.py
+```
+
+```bash
+python3 plot_figure_private_vs_public_blockchain.py
+```
 
 
 ## Acknowledgments

@@ -4,11 +4,11 @@ import numpy as np
 
 # Define the file paths for the CSV files
 file_paths = [
-    'mean/mean_private_network_1s.csv',
-    'mean/mean_private_network_2s.csv',
-    'mean/mean_private_network_5s.csv',
-    'mean/mean_private_network_10s.csv',
-    'mean/mean_private_network_20s.csv'
+    '../data/mean/mean_private_network_1s.csv',
+    '../data/mean/mean_private_network_2s.csv',
+    '../data/mean/mean_private_network_5s.csv',
+    '../data/mean/mean_private_network_10s.csv',
+    '../data/mean/mean_private_network_20s.csv'
 ]
 
 # Define the steps and their corresponding names, including 'federation_completed'

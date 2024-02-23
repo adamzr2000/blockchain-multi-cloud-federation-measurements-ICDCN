@@ -51,7 +51,7 @@ def merge_and_format_csv_files(input_file1, input_file2, output_file):
 def process_network(directory, poa_delays):
     for delay in poa_delays:
         # Adjust base_directory construction to avoid adding an underscore when delay is empty
-        base_directory = f"{directory}_{delay}" if delay else directory
+        base_directory = f"../data/{directory}_{delay}" if delay else f"../data/{directory}"
 
         for i in range(1, 21):
             # Make sure file paths are constructed correctly

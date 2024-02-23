@@ -49,12 +49,12 @@ def main():
     if choice == "1":
         periods = ['0s', '1s', '2s', '5s', '10s', '20s']
         for period in periods:
-            directory = f'private_network_{period}'
-            output_file = f"mean/mean_private_network_{period}.csv"
+            directory = f'../data/private_network_{period}'
+            output_file = f"../data/mean/mean_private_network_{period}.csv"
             calculate_mean_values(directory, 'federation_private_network', output_file)
     elif choice == "2":
-        directory = 'public_network'
-        output_file = "mean/mean_public_network.csv"
+        directory = '../data/public_network'
+        output_file = "../data/mean/mean_public_network.csv"
         calculate_mean_values(directory, 'federation_public_network', output_file)
     else:
         print("Invalid choice. Exiting.")
