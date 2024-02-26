@@ -51,7 +51,7 @@ python3 plot_figure_private_vs_public_blockchain.py
 
 
 ## Acknowledgments
-This work has been partly funded by the European Commission Horizon Europe SNS JU [DESIRE6G](https://desire6g.eu/) project, under grant agreement No.101096466, and the Spanish Ministry of Economic Affairs and Digital Transformation and the European Union-NextGenerationEU through the UNICO 5G I+D [6G-EDGEDT](https://unica6g.it.uc3m.es/6g-edgedt/) and 6G-[DATADRIVEN](https://unica6g.it.uc3m.es/6g-datadriven/).
+This work has been partly funded by the European Commission Horizon Europe SNS JU [DESIRE6G](https://desire6g.eu/) project, under grant agreement No.101096466, and the Spanish Ministry of Economic Affairs and Digital Transformation and the European Union-NextGenerationEU through the UNICO 5G I+D [6G-EDGEDT](https://unica6g.it.uc3m.es/6g-edgedt/) and [6G-DATADRIVEN](https://unica6g.it.uc3m.es/6g-datadriven/).
 
 
 
