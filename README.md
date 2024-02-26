@@ -1,5 +1,4 @@
-This repository contains the measurements and analysis tools used in our study on `Performance evaluation of Private and Public Blockchains for
-multi-cloud service federation`, presented at ICDCN '24.
+This project contains the measurements and analysis tools used in the conference paper entitled `Performance Evaluation of Multi-Cloud Service Federation using Private and Public Blockchains`, which was presented at [ICDCN 2024](https://cse.iitm.ac.in/~icdcn2024/). 
 
 ## Authors
 
@@ -52,7 +51,7 @@ python3 plot_figure_private_vs_public_blockchain.py
 
 
 ## Acknowledgments
-This work has been partly funded by the European Commission Horizon Europe SNS JU DESIRE6G project, under grant agreement No.101096466, and the Spanish Ministry of Economic Affairs and Digital Transformation and the European Union-NextGenerationEU through the UNICO 5G I+D 6G-EDGEDT and 6G-DATADRIVEN.
+This work has been partly funded by the European Commission Horizon Europe SNS JU [DESIRE6G](https://desire6g.eu/) project, under grant agreement No.101096466, and the Spanish Ministry of Economic Affairs and Digital Transformation and the European Union-NextGenerationEU through the UNICO 5G I+D [6G-EDGEDT](https://unica6g.it.uc3m.es/6g-edgedt/) and 6G-[DATADRIVEN](https://unica6g.it.uc3m.es/6g-datadriven/).
 
 
 
